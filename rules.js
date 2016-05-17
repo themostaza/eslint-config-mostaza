@@ -19,7 +19,7 @@ module.exports = {
     "no-param-reassign": 1,
     "no-use-before-define": 0,
     "no-underscore-dangle": 0,
-    "no-unused-vars": [2, { "vars": "all", "args": "none" }],
+    "no-unused-vars": [1, { "vars": "all", "args": "none" }],
     "semi": [2, "never"],
     "space-before-function-paren": [2, "always"],
 
