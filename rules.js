@@ -9,7 +9,7 @@ module.exports = {
     // Standard rules
     "arrow-parens": 0,
     "arrow-body-style": 0,
-    "comma-dangle": [2, "never"],
+    "comma-dangle": [1, "never"],
     "max-len": 0,
     "new-cap": 0,
     "no-console": 0,
