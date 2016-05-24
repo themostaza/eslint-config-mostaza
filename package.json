@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mostaza",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mostaza JS ESLint config, following our styleguide",
   "main": "index.js",
   "repository": {
