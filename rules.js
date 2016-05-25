@@ -2,7 +2,8 @@ module.exports = {
   "extends": "airbnb",
   "globals": {
     "fetch": true,
-    "__DEV__": true
+    "__DEV__": true,
+    "beforeEach": true
   },
   "plugins": ["import"],
   "rules": {
