@@ -3,7 +3,9 @@ module.exports = {
   "globals": {
     "fetch": true,
     "__DEV__": true,
-    "beforeEach": true
+    "beforeEach": true,
+    "describe": true,
+    "it": true
   },
   "plugins": ["import"],
   "rules": {
@@ -23,7 +25,7 @@ module.exports = {
     "no-unused-expressions": 1,
     "no-unused-vars": [1, { "vars": "all", "args": "none" }],
     "semi": [2, "never"],
-    "space-before-function-paren": [2, "always"],
+    "space-before-function-paren": [1, "always"],
 
     // React rules
     "react/jsx-boolean-value": 0,
