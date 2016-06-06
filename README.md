@@ -1,17 +1,27 @@
 # eslint-config-mostaza
 
-Our eslint shareable config for Node, React and React-Native
+Our eslint shareable config for Node (`base`), React and React-Native (`react`).
 
-### Install
-`npm i -D eslint eslint-config-mostaza eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react`
+### Config install for Node
+`npm i -D eslint eslint-config-mostaza-base eslint-plugin-import babel-eslint`  
 
-Also, for ES6++ syntax:
-`npm i -D babel-eslint`
-
-Update your `.eslintrc`:
+Update your `.eslintrc`:  
 ```json
 {
-  "extends": "eslint-config-mostaza",
+  "extends": "eslint-config-mostaza-base",
   "parser": "babel-eslint"
 }
 ```
+
+### Config install for React and React-Native
+`npm i -D eslint eslint-config-mostaza-react eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react babel-eslint`  
+
+Update your `.eslintrc`:  
+```json
+{
+  "extends": "eslint-config-mostaza-react",
+  "parser": "babel-eslint"
+}
+```
+
+
