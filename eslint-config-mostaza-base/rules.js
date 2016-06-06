@@ -1,11 +1,10 @@
 module.exports = {
-  "extends": "airbnb",
+  "extends": "airbnb-base",
   "globals": {
     "fetch": true,
     "__DEV__": true,
     "beforeEach": true,
-    "describe": true,
-    "it": true
+    "Parse": true,
   },
   "plugins": ["import"],
   "rules": {
@@ -25,11 +24,7 @@ module.exports = {
     "no-unused-expressions": 1,
     "no-unused-vars": [1, { "vars": "all", "args": "none" }],
     "semi": [2, "never"],
-    "space-before-function-paren": [1, "always"],
-
-    // React rules
-    "react/jsx-boolean-value": 0,
-    "react/prefer-stateless-function": 1,
+    "space-before-function-paren": [2, "always"],
 
     // Import rules
     "import/no-unresolved": [2, { "ignore": ["\.png$"] }]
