@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mostaza-react",
-  "version": "1.0.6",
+  "version": "1.10.0",
   "description": "Mostaza JS ESLint config, following our styleguide",
   "main": "index.js",
   "repository": {
@@ -25,9 +25,9 @@
     "eslint-config-airbnb": "^10.0.1"
   },
   "peerDependencies": {
-    "eslint": "^2.11.1",
-    "eslint-plugin-jsx-a11y": "^1.2.0",
-    "eslint-plugin-import": "^1.8.1",
-    "eslint-plugin-react": "^5.1.1"
+    "eslint": ">=3.3.1",
+    "eslint-plugin-jsx-a11y": ">=2.1.0",
+    "eslint-plugin-import": ">=1.8.1",
+    "eslint-plugin-react": ">=6.1.2"
   }
 }

@@ -32,6 +32,10 @@ module.exports = {
     "react/sort-comp": [0],
 
     // Import rules
-    "import/no-unresolved": [2, { "ignore": ["\.png$"] }]
+    "import/no-unresolved": [2, { "ignore": ["\.png$"] }],
+    "import/prefer-default-export": "warn",
+    "import/no-extraneous-dependencies": ["warn", { "devDependencies": false, "optionalDependencies": false }],
+    "import/no-named-as-default": "warn",
+    "import/no-named-as-default-member": "warn"
   }
 }
