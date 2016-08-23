@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mostaza-base",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Mostaza JS ESLint config, following our styleguide",
   "main": "index.js",
   "repository": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/themostaza/eslint-config-mostaza",
   "dependencies": {
-    "eslint-config-airbnb-base": "^3.0.1"
+    "eslint-config-airbnb-base": "^5.0.3"
   },
   "peerDependencies": {
     "eslint": "^2.11.1",
