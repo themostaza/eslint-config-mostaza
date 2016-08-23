@@ -29,7 +29,7 @@ module.exports = {
     // React rules
     "react/jsx-boolean-value": 0,
     "react/prefer-stateless-function": 1,
-    "react/sort-comp": 0,
+    "react/sort-comp": [0],
 
     // Import rules
     "import/no-unresolved": [2, { "ignore": ["\.png$"] }]
