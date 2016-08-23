@@ -28,6 +28,7 @@ module.exports = {
 
     // React rules
     "react/jsx-boolean-value": 0,
+    "react/jsx-filename-extension": [0],
     "react/prefer-stateless-function": 1,
     "react/sort-comp": [0],
 
