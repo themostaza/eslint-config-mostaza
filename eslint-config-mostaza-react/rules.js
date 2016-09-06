@@ -35,8 +35,9 @@ module.exports = {
     // Import rules
     "import/no-unresolved": [2, { "ignore": ["\.png$"] }],
     "import/prefer-default-export": "warn",
-    "import/no-extraneous-dependencies": ["warn", { "devDependencies": false, "optionalDependencies": false }],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true, "optionalDependencies": true }],
     "import/no-named-as-default": "warn",
-    "import/no-named-as-default-member": "warn"
+    "import/no-named-as-default-member": "warn",
+    "import/no-named-as-default": "off"
   }
 }
