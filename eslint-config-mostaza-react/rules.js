@@ -3,8 +3,7 @@ module.exports = {
   "globals": {
     "fetch": true,
     "__DEV__": true,
-    "beforeEach": true,
-    "Parse": true,
+    "windows": true
   },
   "plugins": ["import"],
   "rules": {
@@ -12,6 +11,7 @@ module.exports = {
     "arrow-parens": 0,
     "arrow-body-style": 0,
     "comma-dangle": [1, "never"],
+    "global-require" 0,
     "max-len": 0,
     "new-cap": 0,
     "no-console": 0,
@@ -19,6 +19,7 @@ module.exports = {
     "no-confusing-arrow": 0,
     "no-else-return": 0,
     "no-param-reassign": 1,
+    "no-return-assign": 0,
     "no-use-before-define": 0,
     "no-underscore-dangle": 0,
     "no-unused-expressions": 1,
