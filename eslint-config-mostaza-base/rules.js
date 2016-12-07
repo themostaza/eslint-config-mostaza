@@ -11,7 +11,7 @@ module.exports = {
     "arrow-parens": "off",
     "arrow-body-style": "off",
     "comma-dangle": ["warn", "never"],
-    "global-require" "off",
+    "global-require": "off",
     "max-len": "off",
     "new-cap": "off",
     "no-console": "off",
