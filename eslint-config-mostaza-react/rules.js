@@ -3,7 +3,8 @@ module.exports = {
   "globals": {
     "fetch": true,
     "__DEV__": true,
-    "windows": true
+    "window": true,
+    "document": true
   },
   "plugins": ["import"],
   "rules": {
